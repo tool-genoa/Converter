@@ -45,12 +45,13 @@ To install required OpenBabel, you can use conda:
    The output mechanism will be saved in the specified output directory with the given identifier.
 
    The script will generate the following output files in the specified output directory:
-    1. `[IDchem].species`: Species list file that can be directly used in the SSH-aerosol simulations.
-    2. `[IDchem].reactions`: Reaction list file that can be directly used in the SSH-aerosol simulations.
-    3. `[IDchem].aer.1st`: Aerosol species list file that contains SMILES structures, where the aerosol species are disconnected to their precursors (Precursors for ogranic aerosols are not specified). This file is used to generate the SOAP output information required to further convert this mechanism with functional group decomposition.
-    4. `[IDchem].aer`: Aerosol species list file that contains SMILES structures, where the aerosol species are connected to their precursors. This file can be used to obtain the SOAP output information along with the generated species file, and also to run the SSH-aerosol simulations with SMILES structures.
-   5. `[IDchem].aer.vec`: Aerosol species list file that contains functional group decomposition information. This file can be used to run the SSH-aerosol simulations.
-   6. `[IDchem].mol`: Molecular properties file that contains the molecular properties of all the species in the mechanism. Togehter with the reaction file, this file can be used in the converter and GENOA to import a mechanism in the SSH-aerosol format.
+   
+   1. **[IDchem].species**: Species list file that can be directly used in the SSH-aerosol simulations.
+   2. **[IDchem].reactions**: Reaction list file that can be directly used in the SSH-aerosol simulations.
+   3. **[IDchem].aer.1st**: Aerosol species list file that contains SMILES structures, where the aerosol species are disconnected to their precursors (Precursors for ogranic aerosols are not specified). This file is used to generate the SOAP output information required to further convert this mechanism with functional group decomposition.
+   4. **[IDchem].aer**: Aerosol species list file that contains SMILES structures, where the aerosol species are connected to their precursors. This file can be used to obtain the SOAP output information along with the generated species file, and also to run the SSH-aerosol simulations with SMILES structures.
+   5. **[IDchem].aer.vec**: Aerosol species list file that contains functional group decomposition information. This file can be used to run the SSH-aerosol simulations.
+   6. **[IDchem].mol**: Molecular properties file that contains the molecular properties of all the species in the mechanism. Togehter with the reaction file, this file can be used in the converter and GENOA to import a mechanism in the SSH-aerosol format.
 
    Please check the converted mechanisms before using. Some manual modifications may be required to ensure the mechanism is correctly converted. For example, kinetic rate constants that can not be converted will be set to `!!!` in the output reaction file. The user should manually update these values.
 

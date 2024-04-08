@@ -1,0 +1,52 @@
+1       [CX4;H3,H4]
+2       [CX4;H2]
+3       [CX4;H1]
+4       [CX4;H0]
+17      [CX3;H2]=[CX3;H1,H2]
+18      [CX3;H1]=[CX3;H1]
+19      [CX3;H2]=[CX3;H0]
+20      [CX3;H1]=[CX3;H0]
+21      [CX3;H0]=[CX3;H0]
+22      [c;H1]
+23      [c;H0]
+24      [cX3][CX4;H3]
+25      [cX3][CX4;H2]
+26      [cX3][CX4;H1] #	0.0,0.0,0.0, // group //AC-C
+27      [CX4,CX3;!$([CX3]=[#7,#8])][OX2;H1] #	0.0,  //group OH
+28      [OH2] #	0.0, //group H2O
+29      [cX3][OX2;H1] #	0.0, //group ACOH
+30      [#6][CX3;H1](=O)[#6]
+31      [#6][CX3;H0](=O)[#6] #	0.0,0.0, //group ketone
+32      [CX3H1](=O)[#6] #	0.0,   //group aldehyde  
+33      [#6][CX3;H1](=O)[OX2H0][#6] 
+34      [#6][CX3;H0](=O)[OX2H0][#6]#	0.0,0.0, //group ester
+35      [OD2]([#6])[CX3;H3]
+36      [OD2]([#6])[CX3;H2]
+37      [OD2]([#6])[CX3;H1]    #	0.0,0.0,0.0, //group ether 
+38      [#6][CX3](=[OX1])[OX2;H1]
+39      [cX3][NX3](=[OX1])(=[OX1]) #	0.0,   //group ACNO2
+40      [$([NX3;H3](=[OX1])(=[OX1])O),$([NX3+;H3]([OX1-])(=[OX1])O)]
+41      [$([NX3;H2](=[OX1])(=[OX1])O),$([NX3+;H2]([OX1-])(=[OX1])O)]
+42      [$([NX3;H2](=[OX1])(=[OX1])O),$([NX3+;H2]([OX1-])(=[OX1])O)]    #	0.0,0.0,0.0, //group NO3
+43      [#6;!$([CX3;H2]=[OX1])][OX2][OX2;H1]
+44      [#6;!$([CX3;H1]=[OX1])][OX2][OX2;H1]
+45      [#6;!$([CX3;H0]=[OX1])][OX2][OX2;H1]    #	0.0,0.0,0.0, //group CO-OH
+46      [CX3;H3][OX2][OX2][CX3;H2]
+47      [CX3;H3][OX2][OX2][CX3;H1]
+48      [CX3;H3][OX2][OX2][CX3;H0]
+49      [CX3;H2][OX2][OX2][CX3;H2]
+50      [CX3;H2][OX2][OX2][CX3;H1]
+51      [CX3;H2][OX2][OX2][CX3;H0]
+52      [CX3;H1][OX2][OX2][CX3;H1]
+53      [CX3;H1][OX2][OX2][CX3;H0]
+54      [CX3;H0][OX2][OX2][CX3;H0]    #	0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0, //group CO-OC
+5501    [$([CX3]([#6])(=O)[OX2][OX2][NX3](=O)=O)]
+5502    [$([CX3]([#6])(=O)[OX2][OX2][NX3+](=O)[O-])] #	0.0,  //group PAN
+56      [#6][CX3](=[OX1])[OX2;H0][OX2;H1]    #	0.0,  //group CO-OOH
+57    #	0.0,  //group O=COC=O
+58      [CX4;H3][NX3](=[OX1])(=[OX1])
+59      [CX4;H2][NX3](=[OX1])(=[OX1])
+60      [CX4;H1][NX3](=[OX1])(=[OX1])  #	0.0,0.0,0.0}; //group CHxNO2
+    
+
+

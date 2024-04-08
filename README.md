@@ -46,6 +46,14 @@ To install required OpenBabel, you can use conda:
 
    Please check the converted mechanisms before using. Some manual modifications may be required to ensure the mechanism is correctly converted. For example, kinetic rate constants that can not be converted will be set to `!!!` in the output reaction file. The user should manually update these values.
 
+
+### Step 3: To run the SSH-aerosol model with the converted mechanism, the user may neet specify the following parameters in the SSH-aerosol namelist:
+
+   1. **species_list_file**: Make sure the species list file is consistent with the initial and constant concentration files used in the namelist.
+   2. **aerosol_species_list_file**: Make sure the aerosol concentrations are consistent with the aerosol species list file used in the namelist. For the fist time running converted mechanism, please use `[name].aer.1st` file to generate the **soap output information** required to convert a mechansim with functional group decomposition.
+   3. **reaction_list_file**: If the mechanism is converted from GECKO, please also provide the corresponding `photolysis_file` in the namelist.
+   4. **RO2_list_file**: It is an optional file that only needs to be specified if the mechanism contains RO2-RO2 reactions (`tag_RO2` > 0 in the namelist).
+
 ## Example Usage:
 
    Two example mechanisms are provided in the `input` folder:

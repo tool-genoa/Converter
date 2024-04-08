@@ -298,6 +298,14 @@ SMILES	"-"
 generation	-1
 groupID	2
 
+name	"NA"
+status	true
+mass	23.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
 name	"NH3"
 status	true
 mass	17.0
@@ -467,6 +475,14 @@ groupID	2
 name	"RO2pool9"
 status	true
 mass	250.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"SA"
+status	true
+mass	98.0
 formula	"-"
 SMILES	"-"
 generation	-1

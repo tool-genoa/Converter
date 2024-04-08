@@ -3,7 +3,6 @@ name	"ACETOL"
 status	true
 mass	74.07854
 organic	true
-condensable	true
 formula	"C3H6O2"
 SMILES	"CC(=O)CO"
 functionalGroups	{"C": 3.0, "H": 6.0, "O": 2.0, "N": 0.0}
@@ -13,7 +12,7 @@ psat_atm	0.0028093699513689822
 psat_torr	2.1351211630404263
 dHvap_KJ	47.16886799071703
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -330,7 +329,6 @@ name	"APINENE"
 status	true
 mass	136.23404
 organic	true
-condensable	true
 formula	"C10H16"
 SMILES	"CC1=CCC2CC1C2(C)C"
 functionalGroups	{"C": 10.0, "H": 16.0, "O": 0.0, "N": 0.0}
@@ -340,7 +338,7 @@ psat_atm	0.0027792151411626187
 psat_torr	2.1122035072835903
 dHvap_KJ	50.98994632223221
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -3211,7 +3209,6 @@ name	"CH3CO2H"
 status	true
 mass	60.05196
 organic	true
-condensable	true
 formula	"C2H4O2"
 SMILES	"CC(=O)O"
 functionalGroups	{"C": 2.0, "H": 4.0, "O": 2.0, "N": 0.0}
@@ -3221,7 +3218,7 @@ psat_atm	0.0030264846076760296
 psat_torr	2.3001283018337824
 dHvap_KJ	49.45702562806825
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -3248,7 +3245,6 @@ name	"CH3CO3H"
 status	true
 mass	76.05136
 organic	true
-condensable	true
 formula	"C2H4O3"
 SMILES	"CC(=O)OO"
 functionalGroups	{"C": 2.0, "H": 4.0, "O": 3.0, "N": 0.0}
@@ -3258,7 +3254,7 @@ psat_atm	0.03662866376921677
 psat_torr	27.83778446460475
 dHvap_KJ	43.210170548695466
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -3303,7 +3299,6 @@ name	"CH3COCH3"
 status	true
 mass	58.07914
 organic	true
-condensable	true
 formula	"C3H6O"
 SMILES	"CC(=O)C"
 functionalGroups	{"C": 3.0, "H": 6.0, "O": 1.0, "N": 0.0}
@@ -3313,7 +3308,7 @@ psat_atm	0.42857443585679456
 psat_torr	325.7165712511639
 dHvap_KJ	30.21932938425044
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -3321,7 +3316,6 @@ name	"CH3NO3"
 status	true
 mass	77.03942
 organic	true
-condensable	true
 formula	"CH3NO3"
 SMILES	"CON(=O)=O"
 functionalGroups	{"C": 1.0, "H": 3.0, "O": 3.0, "N": 1.0}
@@ -3331,7 +3325,7 @@ psat_atm	0.17057288717582675
 psat_torr	129.63539425362833
 dHvap_KJ	36.90836688492516
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -3374,7 +3368,6 @@ name	"CH3O2NO2"
 status	true
 mass	93.03882
 organic	true
-condensable	true
 formula	"CH3NO4"
 SMILES	"COON(=O)=O"
 functionalGroups	{"C": 1.0, "H": 3.0, "O": 4.0, "N": 1.0}
@@ -3384,7 +3377,7 @@ psat_atm	26.16133622830211
 psat_torr	19882.6155335096
 dHvap_KJ	21.958363805011196
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -3392,7 +3385,6 @@ name	"CH3OH"
 status	true
 mass	32.04186
 organic	true
-condensable	true
 formula	"CH4O"
 SMILES	"CO"
 functionalGroups	{"C": 1.0, "H": 4.0, "O": 1.0, "N": 0.0}
@@ -3401,7 +3393,7 @@ psat_atm	0.17149149771502284
 psat_torr	130.33353826341735
 dHvap_KJ	38.90790241147809
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -3409,7 +3401,6 @@ name	"CH3OOH"
 status	true
 mass	48.04126
 organic	true
-condensable	true
 formula	"CH4O2"
 SMILES	"COO"
 functionalGroups	{"C": 1.0, "H": 4.0, "O": 2.0, "N": 0.0}
@@ -3418,7 +3409,7 @@ psat_atm	0.09490694304766936
 psat_torr	72.12927671622872
 dHvap_KJ	37.717523410603775
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -3847,7 +3838,6 @@ name	"GLYOX"
 status	true
 mass	58.03608
 organic	true
-condensable	true
 formula	"C2H2O2"
 SMILES	"O=CC=O"
 functionalGroups	{"C": 2.0, "H": 2.0, "O": 2.0, "N": 0.0}
@@ -3857,7 +3847,7 @@ psat_atm	0.022588798215318607
 psat_torr	17.167486643642142
 dHvap_KJ	45.989487621286834
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -4282,7 +4272,6 @@ name	"HCHO"
 status	true
 mass	30.025979999999997
 organic	true
-condensable	true
 formula	"CH2O"
 SMILES	"C=O"
 functionalGroups	{"C": 1.0, "H": 2.0, "O": 1.0, "N": 0.0}
@@ -4292,7 +4281,7 @@ psat_atm	26.16133622830211
 psat_torr	19882.6155335096
 dHvap_KJ	21.958363805011196
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -4300,7 +4289,6 @@ name	"HCOCH2CHO"
 status	true
 mass	72.06266
 organic	true
-condensable	true
 formula	"C3H4O2"
 SMILES	"O=CCC=O"
 functionalGroups	{"C": 3.0, "H": 4.0, "O": 2.0, "N": 0.0}
@@ -4310,7 +4298,7 @@ psat_atm	0.008497809705378164
 psat_torr	6.458335376087405
 dHvap_KJ	50.30803374571923
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -4410,7 +4398,6 @@ name	"HCOCH2OOH"
 status	true
 mass	76.05136
 organic	true
-condensable	true
 formula	"C2H4O3"
 SMILES	"OOCC=O"
 functionalGroups	{"C": 2.0, "H": 4.0, "O": 3.0, "N": 0.0}
@@ -4420,7 +4407,7 @@ psat_atm	0.0017104938795835566
 psat_torr	1.299975348483503
 dHvap_KJ	51.892358380957425
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -4428,7 +4415,6 @@ name	"HCOCO"
 status	true
 mass	57.02814
 organic	true
-condensable	true
 formula	"C2HO2"
 SMILES	"O=[C]C=O"
 functionalGroups	{"C": 2.0, "H": 1.0, "O": 2.0, "N": 0.0}
@@ -4438,7 +4424,7 @@ psat_atm	0.471501916121798
 psat_torr	358.34145625256645
 dHvap_KJ	36.133198775364974
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -4483,7 +4469,6 @@ name	"HCOCO3H"
 status	true
 mass	90.03488
 organic	true
-condensable	true
 formula	"C2H2O4"
 SMILES	"OOC(=O)C=O"
 functionalGroups	{"C": 2.0, "H": 2.0, "O": 4.0, "N": 0.0}
@@ -4493,7 +4478,7 @@ psat_atm	0.001754812581855669
 psat_torr	1.3336575622103084
 dHvap_KJ	53.066459394617645
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -4608,7 +4593,6 @@ name	"HOCH2CHO"
 status	true
 mass	60.051959999999994
 organic	true
-condensable	true
 formula	"C2H4O2"
 SMILES	"OCC=O"
 functionalGroups	{"C": 2.0, "H": 4.0, "O": 2.0, "N": 0.0}
@@ -4618,7 +4602,7 @@ psat_atm	0.0030907660474832617
 psat_torr	2.3489821960872788
 dHvap_KJ	53.08273738183194
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -4699,7 +4683,6 @@ name	"HYPERACET"
 status	true
 mass	90.07794
 organic	true
-condensable	true
 formula	"C3H6O3"
 SMILES	"CC(=O)COO"
 functionalGroups	{"C": 3.0, "H": 6.0, "O": 3.0, "N": 0.0}
@@ -4709,7 +4692,7 @@ psat_atm	0.001554763457821575
 psat_torr	1.181620227944397
 dHvap_KJ	45.97848898984269
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -4717,7 +4700,6 @@ name	"MGLYOX"
 status	true
 mass	72.06266
 organic	true
-condensable	true
 formula	"C3H4O2"
 SMILES	"O=CC(=O)C"
 functionalGroups	{"C": 3.0, "H": 4.0, "O": 2.0, "N": 0.0}
@@ -4727,7 +4709,7 @@ psat_atm	0.020532220805041853
 psat_torr	15.604487811831808
 dHvap_KJ	40.07561823017247
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -5232,7 +5214,6 @@ name	"PAN"
 status	true
 mass	121.04891999999998
 organic	true
-condensable	true
 formula	"C2H3NO5"
 SMILES	"CC(=O)OON(=O)=O"
 functionalGroups	{"C": 2.0, "H": 3.0, "O": 5.0, "N": 1.0}
@@ -5242,7 +5223,7 @@ psat_atm	0.04653015240357147
 psat_torr	35.36291582671432
 dHvap_KJ	29.758885671514495
 generation	-1
-type	"A"
+type	"G"
 note	"MCM"
 groupID	2
 
@@ -5443,47 +5424,7 @@ SMILES	"-"
 generation	-1
 groupID	2
 
-name	"MD"
-status	true
-mass	28.0
-formula	"-"
-SMILES	"-"
-generation	-1
-groupID	2
-
-name	"BiMT"
-status	true
-mass	136.0
-formula	"-"
-SMILES	"-"
-generation	-1
-groupID	2
-
-name	"BPINENE"
-status	true
-mass	136.3
-formula	"-"
-SMILES	"-"
-generation	-1
-groupID	2
-
-name	"NA"
-status	true
-mass	23.0
-formula	"-"
-SMILES	"-"
-generation	-1
-groupID	2
-
-name	"TOL"
-status	true
-mass	92.0
-formula	"-"
-SMILES	"-"
-generation	-1
-groupID	2
-
-name	"RO2"
+name	"RO2pool3"
 status	true
 mass	250.0
 formula	"-"
@@ -5491,15 +5432,15 @@ SMILES	"-"
 generation	-1
 groupID	2
 
-name	"BCARY"
+name	"SOAlP"
 status	true
-mass	240.0
+mass	392.0
 formula	"-"
 SMILES	"-"
 generation	-1
 groupID	2
 
-name	"RO2pool"
+name	"RO2pool4"
 status	true
 mass	250.0
 formula	"-"
@@ -5515,9 +5456,9 @@ SMILES	"-"
 generation	-1
 groupID	2
 
-name	"LIMONENE"
+name	"SA"
 status	true
-mass	136.3
+mass	98.0
 formula	"-"
 SMILES	"-"
 generation	-1
@@ -5531,25 +5472,17 @@ SMILES	"-"
 generation	-1
 groupID	2
 
-name	"ACO3"
+name	"RO2pool8"
 status	true
-mass	75.0
+mass	250.0
 formula	"-"
 SMILES	"-"
 generation	-1
 groupID	2
 
-name	"BC"
+name	"O1D"
 status	true
-mass	12.0
-formula	"-"
-SMILES	"-"
-generation	-1
-groupID	2
-
-name	"C02000"
-status	true
-mass	170.3
+mass	16.0
 formula	"-"
 SMILES	"-"
 generation	-1
@@ -5563,9 +5496,33 @@ SMILES	"-"
 generation	-1
 groupID	2
 
-name	"SULF"
+name	"HNO2"
 status	true
-mass	98.0
+mass	47.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"XCLOST"
+status	true
+mass	12.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"BiMT"
+status	true
+mass	136.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"N2O5"
+status	true
+mass	108.0
 formula	"-"
 SMILES	"-"
 generation	-1
@@ -5579,25 +5536,137 @@ SMILES	"-"
 generation	-1
 groupID	2
 
-name	"CMPHEN"
+name	"BC"
 status	true
-mass	136.3
+mass	12.0
 formula	"-"
 SMILES	"-"
 generation	-1
 groupID	2
 
-name	"SOAlP"
+name	"H2O"
 status	true
-mass	392.0
+mass	16.0
 formula	"-"
 SMILES	"-"
 generation	-1
 groupID	2
 
-name	"SA"
+name	"RO2pool6"
+status	true
+mass	250.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"RO2"
+status	true
+mass	250.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"SULF"
 status	true
 mass	98.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"RO2pool5"
+status	true
+mass	250.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"RO2pool2"
+status	true
+mass	250.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"RO2pool"
+status	true
+mass	250.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"CO2"
+status	true
+mass	44.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"MD"
+status	true
+mass	28.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"O2"
+status	true
+mass	32.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"ACO3"
+status	true
+mass	75.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"NA"
+status	true
+mass	23.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"HNO4"
+status	true
+mass	79.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"O3P"
+status	true
+mass	16.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"RO2pool7"
+status	true
+mass	250.0
+formula	"-"
+SMILES	"-"
+generation	-1
+groupID	2
+
+name	"RO2pool9"
+status	true
+mass	250.0
 formula	"-"
 SMILES	"-"
 generation	-1

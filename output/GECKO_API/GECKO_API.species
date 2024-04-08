@@ -1,4 +1,4 @@
-# species list of GECKO_API: 9287 gas-phase species
+# species list of GECKO_API: 9289 gas-phase species
 ACO3    75.00
 BC    12.00
 BiMT    136.00
@@ -27,6 +27,7 @@ MD    28.00
 N01001    77.00
 N01002    93.00
 N2O5    108.00
+NA    23.00
 NH3    17.00
 NO    30.00
 NO2    46.00
@@ -48,6 +49,7 @@ RO2pool6    250.00
 RO2pool7    250.00
 RO2pool8    250.00
 RO2pool9    250.00
+SA    98.00
 SO2    64.00
 SOAlP    392.00
 SULF    98.00

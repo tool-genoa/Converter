@@ -1,16 +1,3 @@
-"""
-    This is a program that converts given mechanism from MCM (FACSMILE) or GECKO format to SSH-aerosol v2.0 format.
-
-    The program contains the following scripts:
-    1. Converty.pt: This scirpt is the main script that does the conversion. All user-defined parameters are set in this script.
-    2. DataStream.py: This scirpt contains functions that read and write data from/to files. It is rewritten from the GENOA DataStream.py code.
-    3. KineticRateToSSH.py: This script contains functions that convert the kinetics from MCM or GECKO format to SSH-aerosol v2.0 format. It is rewritten from the GENOA KineticRateToSSH.py code.
-    4. Module.py: This script contains classes that define the species and reactions in the mechanism. It is rewritten from the GENOA Module.py code.
-    5. MolProperty.py: This script contains functions that calculate the molecular properties of the species based on their SMILES strings. It is rewritten from the GENOA MolProperty.py code.
-        NOTE: It requires the OpenBabel and UManSysProp packages to be installed.
-
-"""
-
 import os
 import sys
 

@@ -1,0 +1,6 @@
+# Not tracking temporary files
+__pycache__/
+*.pyc
+
+# Not tracking the outputs folder
+examples/outputs/*
